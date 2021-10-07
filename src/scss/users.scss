@@ -1,0 +1,109 @@
+@import "_variables.scss";
+@import "_main.scss";
+
+.signup-form {
+	width: 400px;
+	margin: 30px auto;
+	font-family: 'Roboto', sans-serif;
+    form {
+        color: #999;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	h2  {
+		color: #333;
+		font-weight: bold;
+		margin-top: 0;
+	}
+	hr  {
+		margin: 0 -30px 20px;
+	}
+	.form-group {
+		margin-bottom: 15px;
+	}
+	input[type="checkbox"] {
+		margin-top: 3px;
+	}
+	.row div:first-child {
+		padding-right: 10px;
+	}
+	.row div:last-child {
+		padding-left: 10px;
+	}
+	.btn {        
+		font-size: 16px;
+		font-weight: bold;
+		background: #3598dc;
+		border: none;
+		min-width: 140px;
+	}
+	.form-control {
+		.btn {        
+			border-radius: 3px;
+		}	
+	}
+	.form-control {
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none !important;
+		border: none;
+	}
+	.form-control:focus {
+		background: #e2e2e2;
+	}
+	.btn:hover, .signup-form .btn:focus {
+		background: #2389cd !important;
+		outline: none;
+	}
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	form {
+		a {
+			color: #3598dc;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+	.hint-text  {
+		padding-bottom: 15px;
+		text-align: center;
+		a {
+			color: $theme-color;
+		}
+	}
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+	  form {
+		margin-bottom: 15px;
+		background: #f7f7f7;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		padding: 30px;
+	}
+	h2 {
+		margin: 0 0 15px;
+	}
+	.form-control, .btn {
+		min-height: 38px;
+		border-radius: 2px;
+	}
+	.btn {        
+		font-size: 15px;
+		font-weight: bold;
+		background: $theme-color;
+		color: #fff;
+	}
+}

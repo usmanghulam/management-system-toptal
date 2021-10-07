@@ -1,0 +1,11 @@
+node_modules
+lib
+.npmrc
+yarn-error.log
+package-lock.json
+build
+.idea
+.env
+
+# testing
+/coverage
